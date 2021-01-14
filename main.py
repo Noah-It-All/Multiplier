@@ -4,8 +4,8 @@ gprice = input("Please enter the unit price for the goods: ")
 
 gnum = input("Please enter the number of goods purchased: ")
 
-gname = input("Please enter the name of the goods: " )
+goodsname = input("Please enter the name of the goods: " )
 
 tot = float(gprice) * float(gnum)
 
-print("The customer", cname, "paid $" + str(tot), "for", gnum, "items of", gname)
+print("The customer", cname, "paid $" + str(tot), "for", gnum, "items of", goodsname)
